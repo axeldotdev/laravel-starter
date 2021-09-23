@@ -1,11 +1,11 @@
-# This package ghelps you start your Laravel project.
+# This package helps you start your Laravel project.
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/axeldotdev/laravel-starter.svg?style=flat-square)](https://packagist.org/packages/axeldotdev/laravel-starter)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/axeldotdev/laravel-starter/run-tests?label=tests)](https://github.com/axeldotdev/laravel-starter/actions?query=workflow%3ATests+branch%3Amaster)
 [![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/axeldotdev/laravel-starter/Check%20&%20fix%20styling?label=code%20style)](https://github.com/axeldotdev/laravel-starter/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amaster)
 [![Total Downloads](https://img.shields.io/packagist/dt/axeldotdev/laravel-starter.svg?style=flat-square)](https://packagist.org/packages/axeldotdev/laravel-starter)
 
-This package ghelps you start your Laravel project.
+This package helps you start your Laravel project.
 
 ## Installation
 

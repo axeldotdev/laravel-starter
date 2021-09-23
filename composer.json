@@ -1,7 +1,7 @@
 {
     "name": "laravel-zero/laravel-zero",
     "type": "project",
-    "description": "This package ghelps you start your Laravel project.",
+    "description": "This package helps you start your Laravel project.",
     "keywords": [
         "axeldotdev",
         "laravel",
