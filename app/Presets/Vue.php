@@ -24,8 +24,7 @@ class Vue implements Installable
         return false;
     }
 
-    public static function install(Command $command): bool
+    public static function install(Command $command): void
     {
-        return true;
     }
 }

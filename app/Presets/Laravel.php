@@ -17,8 +17,7 @@ class Laravel implements Installable
         return true;
     }
 
-    public static function install(Command $command): bool
+    public static function install(Command $command): void
     {
-        return true;
     }
 }
