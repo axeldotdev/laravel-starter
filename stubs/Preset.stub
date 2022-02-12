@@ -1,0 +1,36 @@
+<?php
+
+namespace App\Presets;
+
+use Axeldotdev\LaravelStarter\Enums\PackageManager;
+use Axeldotdev\LaravelStarter\Presets\Preset;
+use Illuminate\Support\Collection;
+
+class {name} extends Preset
+{
+    public function packages(): Collection
+    {
+        return new Collection([
+            'composer' => [
+                //
+            ],
+            'npm' => [
+                //
+            ],
+        ]);
+    }
+
+    public function publishAssets(): void
+    {
+        //
+    }
+
+    public function install(): bool
+    {
+        parent::install();
+
+        //
+
+        return Preset::SUCCESS;
+    }
+}
