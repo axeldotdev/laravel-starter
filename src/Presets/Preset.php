@@ -2,15 +2,15 @@
 
 namespace Axeldotdev\LaravelStarter\Preset;
 
-use Illuminate\Support\Str;
-use Axeldotdev\LaravelStarter\Traits\HasConfig;
-use Axeldotdev\LaravelStarter\Traits\HasCommands;
-use Axeldotdev\LaravelStarter\Traits\HasPackages;
-use Axeldotdev\LaravelStarter\Contracts\labellable;
-use Axeldotdev\LaravelStarter\Contracts\Installable;
 use Axeldotdev\LaravelStarter\Contracts\Configurable;
 use Axeldotdev\LaravelStarter\Contracts\Downloadable;
+use Axeldotdev\LaravelStarter\Contracts\Installable;
+use Axeldotdev\LaravelStarter\Contracts\labellable;
 use Axeldotdev\LaravelStarter\Contracts\Registerable;
+use Axeldotdev\LaravelStarter\Traits\HasCommands;
+use Axeldotdev\LaravelStarter\Traits\HasConfig;
+use Axeldotdev\LaravelStarter\Traits\HasPackages;
+use Illuminate\Support\Str;
 
 class Preset implements Configurable, Downloadable, Installable, labellable, Registerable
 {

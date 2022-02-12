@@ -3,7 +3,6 @@
 namespace Axeldotdev\LaravelStarter\Preset;
 
 use Illuminate\Support\Collection;
-use Axeldotdev\LaravelStarter\Enums\PackageManager;
 
 class PatrolPreset extends Preset
 {

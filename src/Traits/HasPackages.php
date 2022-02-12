@@ -3,7 +3,6 @@
 namespace Axeldotdev\LaravelStarter\Traits;
 
 use Illuminate\Support\Collection;
-use Axeldotdev\LaravelStarter\Enums\PackageManager;
 
 trait HasPackages
 {

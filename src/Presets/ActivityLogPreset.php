@@ -2,7 +2,6 @@
 
 namespace Axeldotdev\LaravelStarter\Preset;
 
-use Axeldotdev\LaravelStarter\Enums\PackageManager;
 use Illuminate\Support\Collection;
 
 class ActivityLogPreset extends Preset

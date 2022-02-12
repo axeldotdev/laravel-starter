@@ -2,9 +2,9 @@
 
 namespace Axeldotdev\LaravelStarter\Commands;
 
+use Axeldotdev\LaravelStarter\Preset\Preset;
 use Illuminate\Console\Command;
 use Illuminate\Support\Collection;
-use Axeldotdev\LaravelStarter\Preset\Preset;
 
 class InstallCommand extends Command
 {
