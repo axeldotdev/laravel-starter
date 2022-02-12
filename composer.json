@@ -12,9 +12,18 @@
         {
             "name": "Axel Charpentier",
             "email": "axelcharpentier0@icloud.com",
-            "role": "Developer"
+            "role": "Developer",
+            "homepage": "https://github.com/axeldotdev"
         }
     ],
+    "readme": "https://github.com/axeldotdev/laarve-starter/blob/main/README.md",
+    "support": {
+        "email": "axelcharpentier0@icloud.com",
+        "source": "https://github.com/axeldotdev/laarve-starter",
+        "issues": "https://github.com/axeldotdev/laarve-starter/issues",
+        "docs": "https://github.com/axeldotdev/laarve-starter/wiki",
+        "chat": "https://github.com/axeldotdev/laarve-starter/discussions"
+    },
     "require": {
         "php": "^8.1",
         "spatie/laravel-package-tools": "^1.11",
