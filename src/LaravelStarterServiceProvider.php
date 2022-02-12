@@ -3,9 +3,9 @@
 namespace Axeldotdev\LaravelStarter;
 
 use Axeldotdev\LaravelStarter\Commands\InstallCommand;
+use Axeldotdev\LaravelStarter\Commands\MakePresetCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Axeldotdev\LaravelStarter\Commands\MakePresetCommand;
 
 class LaravelStarterServiceProvider extends PackageServiceProvider
 {
