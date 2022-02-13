@@ -4,6 +4,7 @@
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/axeldotdev/laravel-starter/run-tests?label=tests)](https://github.com/axeldotdev/laravel-starter/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/axeldotdev/laravel-starter/Check%20&%20fix%20styling?label=code%20style)](https://github.com/axeldotdev/laravel-starter/actions?query=workflow%3A"Check+%26+fix+styling"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/axeldotdev/laravel-starter.svg?style=flat-square)](https://packagist.org/packages/axeldotdev/laravel-starter)
+[![License](https://img.shields.io/packagist/l/axeldotdev/laravel-airtable.svg?style=flat-square)](https://packagist.org/packages/axeldotdev/laravel-airtable)
 
 Laravel Starter allow you to easily bootstrap your application with common package like Horizon, Larastan, Fortify, etc. and the configuration they need.
 
