@@ -28,6 +28,8 @@ class MakePresetCommand extends Command
 
         $filesystem->copy($stub_path, app_path("Presets/{$name}.php"));
 
+        $filesystem->replaceInFile('{name}', $name, app_path("Presets/{$name}.php"));
+
         return self::SUCCESS;
     }
 }
