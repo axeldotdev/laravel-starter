@@ -9,7 +9,7 @@ use Illuminate\Support\Str;
 class MakePresetCommand extends Command
 {
     /** @var string */
-    public $signature = 'make:preset {name}';
+    public $signature = 'make:preset {name: The preset name}';
 
     /** @var string */
     public $description = 'Make your own preset.';
