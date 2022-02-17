@@ -21,4 +21,23 @@ class AuditingPreset extends Preset
 
         return Preset::SUCCESS;
     }
+
+    public function publishAssets(): void
+    {
+        $this->runCommand(
+            'php',
+            'artisan',
+            'vendor:publish',
+            '--provider="OwenIt\Auditing\AuditingServiceProvider"',
+            '--tag="config"',
+        );
+        $this->runCommand(
+            'php',
+            'artisan',
+            'vendor:publish',
+            '--provider="OwenIt\Auditing\AuditingServiceProvider"',
+            '--tag="migrations"',
+        );
+        $this->runCommand('php', 'artisan', 'migrate');
+    }
 }
