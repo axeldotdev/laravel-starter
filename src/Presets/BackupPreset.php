@@ -21,4 +21,14 @@ class BackupPreset extends Preset
 
         return Preset::SUCCESS;
     }
+
+    public function publishAssets(): void
+    {
+        $this->runCommand(
+            'php',
+            'artisan',
+            'vendor:publish',
+            '--provider="Spatie\Backup\BackupServiceProvider"',
+        );
+    }
 }
