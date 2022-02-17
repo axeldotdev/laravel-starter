@@ -21,4 +21,23 @@ class ActivityLogPreset extends Preset
 
         return Preset::SUCCESS;
     }
+
+    public function publishAssets(): void
+    {
+        $this->runCommand(
+            'php',
+            'artisan',
+            'vendor:publish',
+            '--provider="Spatie\Activitylog\ActivitylogServiceProvider"',
+            '--tag="activitylog-config"',
+        );
+        $this->runCommand(
+            'php',
+            'artisan',
+            'vendor:publish',
+            '--provider="Spatie\Activitylog\ActivitylogServiceProvider"',
+            '--tag="activitylog-migrations"',
+        );
+        $this->runCommand('php', 'artisan', 'migrate');
+    }
 }
