@@ -21,4 +21,15 @@ class AirtablePreset extends Preset
 
         return Preset::SUCCESS;
     }
+
+    public function publishAssets(): void
+    {
+        $this->runCommand(
+            'php',
+            'artisan',
+            'vendor:publish',
+            '--provider="AxelDotDev\LaravelAirtable\LaravelAirtableServiceProvider"',
+            '--tag="config"',
+        );
+    }
 }
