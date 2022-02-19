@@ -23,4 +23,15 @@ class JetstreamPreset extends Preset
 
         return Preset::SUCCESS;
     }
+
+    public function publishAssets(): void
+    {
+        $this->runCommand(
+            'php',
+            'artisan',
+            'jetstream:install',
+            $this->config('stack') ?? '',
+            $this->config('teams') ? '--teams' : '',
+        );
+    }
 }
