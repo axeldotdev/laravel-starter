@@ -6,13 +6,17 @@ use Illuminate\Support\Collection;
 
 trait HasConfig
 {
-    public function config(): Collection
+    public function config(?string $index = null): Collection
     {
         $config = is_array(config('starter.presets.' . static::class))
             ? config('starter.presets.' . static::class)
             : [];
 
-        return new Collection($config);
+        if (is_null($index)) {
+            return new Collection($config);
+        }
+
+        return config('starter.presets.' . static::class . $index);
     }
 
     public function hasConfig(string ...$configs): bool

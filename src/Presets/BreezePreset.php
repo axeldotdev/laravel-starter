@@ -23,4 +23,14 @@ class BreezePreset extends Preset
 
         return Preset::SUCCESS;
     }
+
+    public function publishAssets(): void
+    {
+        $this->runCommand(
+            'php',
+            'artisan',
+            'breeze:install',
+            $this->config('stack') ?? '',
+        );
+    }
 }

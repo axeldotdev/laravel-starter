@@ -72,7 +72,9 @@ return [
         //     'stack' => 'livewire',
         //     'teams' => true,
         // ],
-        // \Axeldotdev\LaravelStarter\Preset\BreezePreset::class => [],
+        // \Axeldotdev\LaravelStarter\Preset\BreezePreset::class => [
+        //     'stack' => null, // vue, react, api
+        // ],
 
         /*
         |--------------------------------------------------------------------------
